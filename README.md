@@ -45,6 +45,11 @@ Replace:
 - Solution URL: {{SOLUTION_URL}}
 - Live Site URL: {{LIVE_URL}}
 
+### 7. Update dependencies (optional)
+```bash
+npx npm-check-updates -u
+```
+
 ## Table of contents
 
 - [Overview](#overview)
