@@ -65,7 +65,11 @@ Put design files and style guide in docs directory.
 Upload favicons to public directory (realfavicongenerator.net is recommended).
 Create og-image.png after the project is ready for ease of sharing.
 
-### 9. Enable GitHub Pages deploy
+### 10. Upload assets
+
+Put fonts to `src/fonts/` and content images to `src/images`.
+
+### 11. Enable GitHub Pages deploy
 
 After creating repo: Settings → Pages → Source → GitHub Actions.
 

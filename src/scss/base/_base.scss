@@ -1,0 +1,32 @@
+@use '../abstracts' as abstracts;
+
+:root {
+  --font-family-primary: system-ui, -apple-system, sans-serif;
+  --font-size-base: 16px;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
