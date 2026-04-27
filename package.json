@@ -8,15 +8,13 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-
     "editorconfig": "npx editorconfig-cli",
-    
     "lint:scss": "stylelint \"src/scss/**/*.scss\"",
     "lint:scss:fix": "stylelint \"src/scss/**/*.scss\" --fix --cache",
-    
     "lint:html": "html-validate \"*.html\"",
     "lint:html:fix": "html-validate --fix \"*.html\"",
-    
+    "format": "prettier . --write",
+    "format:check": "prettier . --check",
     "prepare": "husky"
   },
   "repository": {
@@ -50,6 +48,7 @@
     "src/sass/**/*.scss"
   ],
   "lint-staged": {
+    "*.{js,html,scss,css,json,md}": "prettier --write",
     "src/scss/**/*.scss": "stylelint --fix --cache",
     "*.{js,json}": "npx editorconfig-cli",
     "*.html": "html-validate"
@@ -61,6 +60,7 @@
     "husky": "^9.1.7",
     "lint-staged": "^16.4.0",
     "postcss": "^8.5.10",
+    "prettier": "3.8.3",
     "sass": "^1.99.0",
     "stylelint": "^17.9.0",
     "stylelint-config-standard-scss": "^17.0.0",
