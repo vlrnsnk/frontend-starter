@@ -12,6 +12,7 @@ Click **"Use this template"** on GitHub and create a new repository.
 ### 2. Update project metadata
 
 #### In `package.json`
+
 ```json
 "name": "{{PROJECT_NAME}}"
 ```
@@ -19,9 +20,11 @@ Click **"Use this template"** on GitHub and create a new repository.
 ### 3. Update Vite base path (for GitHub Pages)
 
 If using static base:
+
 ```js
 base: "/{{REPO_NAME}}/",
 ```
+
 If using dynamic config (recommended), no change needed.
 
 ### 4. Update README
@@ -37,15 +40,18 @@ Replace all placeholders:
 ### 5. Add preview image
 
 Replace:
+
 ```
 ./preview.png
 ```
 
 ### 6. Update links
+
 - Solution URL: {{SOLUTION_URL}}
 - Live Site URL: {{LIVE_URL}}
 
 ### 7. Update dependencies (optional)
+
 ```bash
 npx npm-check-updates -u
 ```
@@ -88,6 +94,7 @@ Users should be able to:
 - Live Site URL: [Live Site]({{LIVE_URL}})
 
 ## Features
+
 - Responsive layout (mobile-first)
 - Accessible interactive states (hover + focus-visible)
 - SCSS modular architecture
@@ -124,34 +131,41 @@ Example:
 ## Setup
 
 ### Installation
+
 ```bash
 npm install
 ```
 
 ### Development
+
 ```bash
 npm run dev
 ```
 
 ### Build
+
 ```bash
 npm run build
 npm run preview
 ```
 
 ### Linting
+
 ```bash
 npm run lint
 ```
+
 This project uses Stylelint + EditorConfig + Husky pre-commit hooks
 to ensure consistent code formatting before commits.
 
 ### Fix SCSS issues:
+
 ```bash
 npm run lint:fix
 ```
 
 ## Deployment
+
 Project is built with Vite and deployed to GitHub Pages using GitHub Actions.
 
 ## Performance
@@ -164,6 +178,7 @@ Lighthouse score (example):
 - SEO: {{SEO_SCORE}}
 
 ## Author
+
 - Website: https://vlrnsnk.com
 - Frontend Mentor: https://www.frontendmentor.io/profile/vlrnsnk
 - GitHub: https://github.com/vlrnsnk
