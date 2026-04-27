@@ -5,5 +5,5 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.stylelint": "explicit"
   },
-  "stylelint.validate": ["css", "scss", "html"]
+  "stylelint.validate": ["css", "scss"]
 }
