@@ -1,6 +1,6 @@
 # Frontend Mentor - {{PROJECT_NAME}} solution
 
-This is a solution to the [{{CHALLENGE_NAME}} on Frontend Mentor]({{CHALLENGE_URL}}).  
+This is a solution to the [{{CHALLENGE_NAME}} on Frontend Mentor]({{CHALLENGE_URL}}).
 Frontend Mentor challenges help improve frontend skills by building realistic UI components.
 
 ## 🚀 Using this template
@@ -55,6 +55,10 @@ Replace:
 ```bash
 npx npm-check-updates -u
 ```
+
+### 8. Enable GitHub Pages deploy
+
+After creating repo: Settings → Pages → Source → GitHub Actions.
 
 ## Table of contents
 
