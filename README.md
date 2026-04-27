@@ -60,6 +60,11 @@ npx npm-check-updates -u
 
 Put design files and style guide in docs directory.
 
+### 9. Update favicons
+
+Upload favicons to public directory (realfavicongenerator.net is recommended).
+Create og-image.png after the project is ready for ease of sharing.
+
 ### 9. Enable GitHub Pages deploy
 
 After creating repo: Settings → Pages → Source → GitHub Actions.
