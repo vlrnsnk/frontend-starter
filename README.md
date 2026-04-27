@@ -56,7 +56,11 @@ Replace:
 npx npm-check-updates -u
 ```
 
-### 8. Enable GitHub Pages deploy
+### 8. Update docs
+
+Put design files and style guide in docs directory.
+
+### 9. Enable GitHub Pages deploy
 
 After creating repo: Settings → Pages → Source → GitHub Actions.
 
