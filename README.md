@@ -55,17 +55,14 @@ Put design files and style guide in docs directory.
 ### 9. Update favicons
 
 Upload favicons to public directory (realfavicongenerator.net is recommended).
-Create og-image.png after the project is ready for ease of sharing.
 
 ### 10. Upload assets
 
 Put fonts to `src/fonts/` and content images to `src/images`.
 
-### 11. Add preview image
+### 11. Add preview images
 
-```
-./preview.png
-```
+Upload `./preview.png` and create `public/og-image.png` after the project is ready for ease of sharing.
 
 ## Table of contents
 
