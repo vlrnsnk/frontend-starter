@@ -9,7 +9,11 @@ Frontend Mentor challenges help improve frontend skills by building realistic UI
 
 Click **"Use this template"** on GitHub and create a new repository.
 
-### 2. Update project metadata
+### 2. Enable GitHub Pages deploy
+
+After creating repo: Settings → Pages → Source → GitHub Actions.
+
+### 3. Update project metadata
 
 #### In `package.json`
 
@@ -17,17 +21,13 @@ Click **"Use this template"** on GitHub and create a new repository.
 "name": "{{PROJECT_NAME}}"
 ```
 
-### 3. Update Vite base path (for GitHub Pages)
-
-If using static base:
+### 4. Update Vite base path (for GitHub Pages)
 
 ```js
 base: "/{{REPO_NAME}}/",
 ```
 
-If using dynamic config (recommended), no change needed.
-
-### 4. Update README
+### 5. Update README
 
 Replace all placeholders:
 
@@ -36,14 +36,6 @@ Replace all placeholders:
 - {{CHALLENGE_URL}}
 - {{SOLUTION_URL}}
 - {{LIVE_URL}}
-
-### 5. Add preview image
-
-Replace:
-
-```
-./preview.png
-```
 
 ### 6. Update links
 
@@ -69,9 +61,11 @@ Create og-image.png after the project is ready for ease of sharing.
 
 Put fonts to `src/fonts/` and content images to `src/images`.
 
-### 11. Enable GitHub Pages deploy
+### 11. Add preview image
 
-After creating repo: Settings → Pages → Source → GitHub Actions.
+```
+./preview.png
+```
 
 ## Table of contents
 
@@ -139,12 +133,6 @@ Users should be able to:
 - {{LEARNING_2}}
 - {{LEARNING_3}}
 
-Example:
-
-```scss
-@include abstracts.transition(background-color, color);
-```
-
 ## Setup
 
 ### Installation
@@ -169,16 +157,18 @@ npm run preview
 ### Linting
 
 ```bash
-npm run lint
+npm run lint:scss
+npm run lint:html
 ```
 
 This project uses Stylelint + EditorConfig + Husky pre-commit hooks
 to ensure consistent code formatting before commits.
 
-### Fix SCSS issues:
+### Fix linting issues:
 
 ```bash
-npm run lint:fix
+npm run lint:scss:fix
+npm run lint:html:fix
 ```
 
 ## Deployment
