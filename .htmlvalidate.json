@@ -1,6 +1,7 @@
 {
   "extends": ["html-validate:recommended", "html-validate:accessibility"],
   "rules": {
+    "doctype-style": ["error", { "style": "lowercase" }],
     "void-style": "off",
     "no-trailing-whitespace": "error",
     "attribute-boolean-style": "off"
