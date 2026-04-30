@@ -2,9 +2,10 @@
 @use 'sass:list';
 
 /* Typography utility */
-@mixin text($size, $weight, $line-height: normal, $letter-spacing: normal) {
-  font-size: $size;
-  font-weight: $weight;
+@mixin text($font-family, $font-size, $font-weight, $line-height, $letter-spacing) {
+  font-family: $font-family;
+  font-size: $font-size;
+  font-weight: $font-weight;
   line-height: $line-height;
   letter-spacing: $letter-spacing;
 }
