@@ -62,7 +62,7 @@ Put fonts to `src/fonts/` and content images to `src/images`.
 
 ### 11. Add preview images
 
-Upload `./preview.png` (894xHEIGHT size) and create `public/og-image.png` after the project is ready for ease of sharing.
+Upload `./preview.png` (894xHEIGHT size) and create `public/og-image.png` (1200x630) after the project is ready for ease of sharing.
 
 ## Table of contents
 
