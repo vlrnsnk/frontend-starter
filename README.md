@@ -62,7 +62,7 @@ Put fonts to `src/fonts/` and content images to `src/images`.
 
 ### 11. Add preview images
 
-Upload `./preview.png` and create `public/og-image.png` after the project is ready for ease of sharing.
+Upload `./preview.png` (894xHEIGHT size) and create `public/og-image.png` after the project is ready for ease of sharing.
 
 ## Table of contents
 
@@ -94,7 +94,13 @@ Users should be able to:
 
 ### Preview
 
-![](./preview.png)
+<details>
+  <summary>Click to expand website preview</summary>
+  <br>
+  <p align="center">
+    <img src="./preview.png" alt="website preview" width="894" style="max-width: 100%; height: auto;">
+  </p>
+</details>
 
 ### Links
 
