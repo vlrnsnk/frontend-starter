@@ -84,6 +84,9 @@ Upload `./preview.png` (894xHEIGHT size) and create `public/og-image.png` (1200x
   - [Linting](#linting)
 - [Deployment](#deployment)
 - [Performance](#performance)
+- [Continued Development](#continued-development)
+- [Useful Resources](#useful-resources)
+- [AI Collaboration](#ai-collaboration)
 - [Author](#author)
 - [Notes](#notes)
 
@@ -190,6 +193,23 @@ Lighthouse score (example):
 - Accessibility: {{ACCESSIBILITY_SCORE}}
 - Best Practices: {{BEST_PRACTICES_SCORE}}
 - SEO: {{SEO_SCORE}}
+
+## Continued Development
+
+Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+
+## Useful Resources
+
+- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+
+## AI Collaboration
+
+Describe how you used AI tools (if any) during this project. This helps demonstrate your ability to work effectively with AI assistants.
+
+- What tools did you use (e.g., ChatGPT, Claude, GitHub Copilot)?
+- How did you use them (e.g., debugging, generating boilerplate, brainstorming solutions)?
+- What worked well? What didn't?
 
 ## Author
 
