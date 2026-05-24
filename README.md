@@ -116,12 +116,14 @@ Users should be able to:
 
 ## Features
 
-- Responsive layout (mobile-first)
-- Accessible interactive states (hover + focus-visible)
-- SCSS modular architecture
-- CSS property ordering enforced via Stylelint
-- Optimized build with Vite
-- GitHub Pages deployment via GitHub Actions
+- Responsive mobile-first layout
+- Accessible interactive states (`hover`, `focus-visible`)
+- Semantic HTML structure
+- Modular SCSS architecture using `@use`
+- CSS custom properties for design tokens
+- Stylelint configuration with property ordering
+- Optimized production build with Vite
+- Automated deployment to GitHub Pages via GitHub Actions
 
 ## My process
 
@@ -219,7 +221,9 @@ Describe how you used AI tools (if any) during this project. This helps demonstr
 
 ## Notes
 
-- Focus on accessibility (semantic HTML, focus-visible)
-- Modular SCSS architecture using @use
-- Consistent styling via Stylelint rules
-- Optimized build pipeline with Vite
+- Accessibility-focused semantic markup
+- Mobile-first responsive workflow
+- Modular SCSS architecture using `@use`
+- Consistent styling enforced with Stylelint
+- Optimized Vite build pipeline
+- GitHub Pages deployment with GitHub Actions
