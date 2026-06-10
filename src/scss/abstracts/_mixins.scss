@@ -1,5 +1,6 @@
 /* Text presets */
 @use 'sass:list';
+@use 'variables' as *;
 
 /* Typography utility */
 @mixin text($font-family, $font-size, $font-weight, $line-height, $letter-spacing) {
