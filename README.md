@@ -58,13 +58,36 @@ Upload favicons to public directory (realfavicongenerator.net is recommended).
 
 ### 10. Upload assets
 
-Put fonts to `src/fonts/` and content images to `src/images`.
+Put fonts to `src/fonts/` and content images to `src/assets/images`.
 
-### 11. Update index.html
+### 11. Generate optimized image formats
+
+After adding images, run:
+
+```bash
+npm run images
+```
+
+This generates optimized .webp and .avif versions recursively from:
+
+```bash
+src/assets/images/
+```
+
+The script:
+
+- converts PNG/JPG/JPEG files to WebP and AVIF
+- preserves the original files as fallbacks
+- compresses images using Sharp
+- skips already generated files
+
+Run this whenever new images are added.
+
+### 12. Update index.html
 
 Change text content and meta tags values.
 
-### 12. Add preview images
+### 13. Add preview images
 
 Upload `./preview.png` (894xHEIGHT size) and create `public/og-image.png` (1200x630) after the project is ready for ease of sharing.
 
@@ -79,6 +102,7 @@ Upload `./preview.png` (894xHEIGHT size) and create `public/og-image.png` (1200x
   - [What I learned](#what-i-learned)
 - [Setup](#setup)
   - [Installation](#installation)
+  - [Image Optimization](#image-optimization)
   - [Development](#development)
   - [Build](#build)
   - [Linting](#linting)
@@ -123,6 +147,7 @@ Users should be able to:
 - CSS custom properties for design tokens
 - Stylelint configuration with property ordering
 - Optimized production build with Vite
+- Automated image optimization pipeline with Sharp (WebP + AVIF generation)
 - Automated deployment to GitHub Pages via GitHub Actions
 
 ## My process
@@ -135,6 +160,7 @@ Users should be able to:
 - Flexbox / Grid
 - Mobile-first workflow
 - Vite
+- Sharp image processing
 - Stylelint (code quality + property ordering)
 - HTML validation
 - Husky (pre-commit hooks)
@@ -151,6 +177,38 @@ Users should be able to:
 
 ```bash
 npm install
+```
+
+### Image optimization
+
+Generate modern image formats:
+
+```bash
+npm run images
+```
+
+This creates .webp and .avif versions of images inside:
+
+```bash
+src/assets/images/
+```
+
+Example:
+
+```bash
+image-hero.png
+image-hero.webp
+image-hero.avif
+```
+
+Use <picture> with AVIF → WebP → original fallback:
+
+```html
+<picture>
+  <source srcset="image.avif" type="image/avif" />
+  <source srcset="image.webp" type="image/webp" />
+  <img src="image.png" alt="" />
+</picture>
 ```
 
 ### Development
