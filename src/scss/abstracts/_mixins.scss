@@ -11,6 +11,8 @@
   letter-spacing: $letter-spacing;
 }
 
+/* Text presets */
+
 /* Transitions */
 @mixin transition($properties...) {
   $transitions: ();
